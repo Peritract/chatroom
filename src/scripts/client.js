@@ -1,13 +1,11 @@
-import '../styles/index.css';
-
+//External packages
 import React from "react";
 import ReactDOM from "react-dom";
-import io from "socket.io-client";
 
-let socket = io()
+//Internal code
+import Chatroom from './components/chatroom.js';
 
-const Index = () => {
-  return <div>Hello React!</div>;
-};
+//CSS
+import '../styles/index.css';
 
-ReactDOM.render(<Index />, document.getElementById("root"));
+ReactDOM.render(<Chatroom />, document.getElementById("root"));
