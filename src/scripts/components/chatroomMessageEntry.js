@@ -13,6 +13,6 @@ export default class ChatroomMessageEntry extends React.Component {
 	}
 	
 	render(){
-		return (<input type="text" className="chatroomMessageEntry" value={this.props.currentMessage} placeholder="Start typing..." onChange={this.handleChange} />);
+		return (<textarea className="chatroomMessageEntry" value={this.props.currentMessage} placeholder="Start typing..." onChange={this.handleChange} autofocus/>);
 	}
 }
