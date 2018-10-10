@@ -13,7 +13,7 @@ export default class ChatroomMessageLog extends React.Component {
 	
 	renderMessages(log){
 		return log.map((message, index) => {
-			return (<ChatroomMessage user={this.props.users[message.id]["name"]} message={message.message} key={index}/>);
+			return (<ChatroomMessage user={this.props.users[message.id]["name"]} message={message.message} type={message.type} key={index}/>);
 		})
 	}
 	
