@@ -1,9 +1,7 @@
 # chatroom
 
 ## TODO
-name uniqueness
-id match for whisper
-/whisper
+
 
 ## Longterm TODO
 preview checkbox
