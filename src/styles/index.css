@@ -14,6 +14,10 @@ body {
 	max-width: 50%;
 }
 
+p {
+	margin: none;
+}
+
 .chatroom {
 	min-width: 30%;
 	max-width: 100%;
@@ -53,8 +57,8 @@ body {
 .chatroomMessageLog {
 	overflow: auto;
 	margin: 1%;
-	padding: 2%;
-	height: 14rem;
+	padding: 1rem%;
+	height: 20rem;
 	background: var(--light);
 	border: 0.2rem solid var(--lessdark);
 	border-radius: 1rem;
@@ -150,6 +154,9 @@ body {
 		max-width: 100%;
 	}
 	
+	.chatroomMessageLog {
+		height: 13rem;
+	}
 	
 	.chatroomTitle {
 	font-size: 1.8rem;
@@ -164,19 +171,20 @@ hr {
 }
 
 .chatroomMessage {
-	padding: 1%;
+	padding: 0.1rem;
 	border-radius: 1rem;
 	font-size: 1rem;
+	margin: 0.1rem;
 }
 
 .chatroomMessage .chatroomMessageUser {
-	margin: 1% 1% 2% 1%;
+	margin: 0.2rem 0.2rem 0.4rem 0.2rem;
 	color: var(--mid);
 	font-weight: bold;
 }
 
 .chatroomMessage .chatroomMessageContent {
-	margin: 1%;
+	margin: 0.2rem;
 	color: var(--dark);
 }
 
